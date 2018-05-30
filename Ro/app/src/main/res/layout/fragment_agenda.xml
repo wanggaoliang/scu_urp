@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:WaveView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/toolb"
+        android:id="@+id/toolbar_normal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="horizontal" />
+    <com.wangr.ro.ro.widget.MyView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        WaveView:startcolor="#4464D2A1"
+        WaveView:overcolor="#4448E6F3"
+        WaveView:Speed="1.7"
+        WaveView:Initial_offset="600.0"
+        WaveView:HeightDivider="10"
+        WaveView:widthDivider="0.75"
+        android:layout_below="@+id/toolbar_normal"/>
+    <com.wangr.ro.ro.widget.MyView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        WaveView:startcolor="#4464D2A1"
+        WaveView:overcolor="#4448E6F3"
+        WaveView:Speed="2.5"
+        WaveView:Initial_offset="300.0"
+        WaveView:HeightDivider="10"
+        WaveView:widthDivider="0.75"
+        android:layout_below="@+id/toolbar_normal"/>
+    <com.wangr.ro.ro.widget.MyView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        WaveView:startcolor="#4464D2A1"
+        WaveView:overcolor="#4448E6F3"
+        android:layout_below="@+id/toolbar_normal"
+        WaveView:Speed="3.0"
+        WaveView:HeightDivider="10"
+        WaveView:widthDivider="0.75"/>
+
+</RelativeLayout>

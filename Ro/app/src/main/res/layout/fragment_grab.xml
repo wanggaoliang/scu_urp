@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:id="@+id/info_dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lay_grab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:text="开始抢课" />
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/lay_grab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp">
+
+        <EditText
+            android:id="@+id/edit_kch"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/eidt_cxkxh"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edit_kch" />
+
+        <Button
+            android:id="@+id/btn_verfy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eidt_cxkxh"
+            android:layout_marginLeft="50dp"
+            android:text="加入队列" />
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eidt_cxkxh"
+            android:layout_marginLeft="150dp"
+            android:text="开始" />
+    </RelativeLayout>
+</RelativeLayout>

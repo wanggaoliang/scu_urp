@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <attr name="Speed" format="reference|float"></attr>
+        <attr name="HeightDivider" format="reference|float"></attr>
+        <attr name="PaintColor" format="reference|color"></attr>
+        <attr name="Initial_offset" format="float"/>
+        <attr name="widthDivider" format="float"/>
+        <attr name="startcolor" format="reference|color"/>
+        <attr name="overcolor" format="reference|color"/>
+    </declare-styleable>
+</resources>
