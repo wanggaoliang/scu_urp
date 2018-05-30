@@ -1,8 +1,5 @@
 package com.wangr.ro.ro.fragments;
 
-import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.os.Handler;
@@ -14,8 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.wangr.ro.ro.LessonActivity;
-import com.wangr.ro.ro.LoginActivity;
 import com.wangr.ro.ro.R;
 import com.wangr.ro.ro.dataBaseApi.mSharePerference;
 import com.wangr.ro.ro.public_Class.qiangke;
@@ -69,7 +64,7 @@ public class LoginFragment extends Fragment {
                     msp.setAccount(zjhEdit.getText().toString());
                     msp.setPassword(mmEdit.getText().toString());
                     msp.setSessionid(qiangke.getSessionId());
-                    args.putString("sessionid",qiangke.getSessionId() );
+                    args.putString("sessionid", qiangke.getSessionId() );
                     msp.setLoginState();
                     break;
                 case 1:

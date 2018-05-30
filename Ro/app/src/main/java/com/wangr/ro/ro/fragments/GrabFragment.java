@@ -6,28 +6,18 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
-import android.net.Uri;
-import android.os.Binder;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.os.Handler;
 import android.os.IBinder;
-import android.os.Message;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.wangr.ro.ro.LessonActivity;
-import com.wangr.ro.ro.MainActivity;
 import com.wangr.ro.ro.R;
-import com.wangr.ro.ro.public_Class.choosCourse;
 import com.wangr.ro.ro.service.GrabService;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 
 public class GrabFragment extends Fragment {

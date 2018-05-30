@@ -12,8 +12,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-
-import com.wangr.ro.ro.dataBaseApi.mSharePerference;
 import com.wangr.ro.ro.widget.WaitAni;
 
 
